@@ -1,0 +1,80 @@
+/***Alle Sachen gelten nur für die index.php***/
+
+.index-hr {
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+/*******Startseite #home*******/
+
+.home {
+    background-image: url('../images/wallpaper-black.jpg');
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.hometext {
+    text-align: center;
+    left: auto;
+    transform: translate(0%, 150%);
+}
+
+.hometexth1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.arrow-nextpage {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.img-arrow-home {
+    cursor: url('../Images/arrow-down.png'), auto;
+}
+
+
+/*******Über mich*******/
+
+
+/*******Werdegang*******/
+
+.werdegang-title {
+    text-align: center;
+}
+
+
+/*******Fähgkeiten*******/
+
+.fähigkeiten-title {
+    text-align: center;
+}
+
+.skillsp {
+    font-size: 10px;
+}
+
+
+/*eigene Breakpoints*/
+
+@media (max-width: 580px) {
+    .hometexth1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hometexth1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 225px) {
+    .hometexth1 {
+        font-size: 20px;
+    }
+}

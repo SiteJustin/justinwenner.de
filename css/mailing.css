@@ -1,0 +1,41 @@
+.mailing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.pagemailing {
+    width: 75%;
+}
+
+.btn-margin {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.strongmailing {
+    margin: 5px 5px 0px 5px;
+}
+
+.pstrongmailing {
+    margin: 0px 5px 5px 5px;
+}
+
+.p2strongmailing {
+    margin: 0px 5px 0px 5px;
+}
+
+.smallmailing {
+    font-size: smaller;
+    margin: 0px 5px 5px 5px;
+}
+
+.pmailing {
+    margin: 5px;
+}
+
+.infosmallmailing {
+    font-size: smaller;
+    margin: 0px 5px 5px 5px
+}

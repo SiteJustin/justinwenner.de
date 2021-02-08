@@ -1,0 +1,40 @@
+    /*Gilt für die gesamte Navigationsleiste*/
+    
+    .nav-all {
+        height: 50px;
+    }
+    /*Gilt für den Social Media Bereich in der Navigationsleiste (rechte Seite / link + Bilder)*/
+    
+    .nav-link-socialmedia {
+        cursor: pointer;
+    }
+    
+    .nav-img-socialmedia {
+        height: 35px;
+        width: 35px;
+    }
+    
+    .nav-color {
+        color: black;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .nav-color-change {
+        color: black;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    /*eigene Breakpoints*/
+    
+    @media (max-width: 990px) {
+        .nav-color-change {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    }

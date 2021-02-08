@@ -1,0 +1,25 @@
+/**Für alle Dateien, die die head.php eingebunden haben**/
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+
+/*Für die Überschriften*/
+
+.headline1 {
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.headline2 {
+    font-size: 35px;
+}
+
+
+/*eigene Breakpoints*/
+
+@media (max-width: 580px) {}
+
+@media (max-width: 325px) {}
